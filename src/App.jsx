@@ -10,7 +10,7 @@ function App() {
     const dataFetch = async () => {
       const data = await (
         await fetch(
-          "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m&hourly=temperature_2m&temperature_unit=fahrenheit"
+          "https://api.open-meteo.com/v1/forecast?latitude=33.749&longitude=-84.388&current=temperature_2m&hourly=temperature_2m&temperature_unit=fahrenheit&timezone=America%2FNew_York"
         )
       ).json();
 
